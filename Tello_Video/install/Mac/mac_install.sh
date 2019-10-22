@@ -61,8 +61,8 @@ mkdir build
 
 cd build
 
-cmake ..
-
+cmake .. -DBoost_NO_BOOST_CMAKE=ON -DPYTHON_LIBRARY="/System/Library/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib"
+ 
 make
 
 
